@@ -13,5 +13,14 @@ namespace WpfThemesApp
     /// </summary>
     public partial class App : Application
     {
+        System.Threading.Mutex mutex;
+        private void Application_Startup(object sender, StartupEventArgs e)
+        {
+            //bool appNew;
+            //string mutexName = "Application";
+            //mutex = new System.Threading.Mutex(true, mutexName, out appNew);
+            //if (!appNew)
+            //    this.Shutdown();
+        }
     }
 }

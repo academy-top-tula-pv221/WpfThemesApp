@@ -7,4 +7,12 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="app-start.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <SplashScreen Include="app-start.png" />
+  </ItemGroup>
+
 </Project>
